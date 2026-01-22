@@ -1,11 +1,25 @@
 # SSM & VLM Experiments with Comprehensive Lossy-ness Measurement
 
+
 ## Project Overview
-This repository contains a comprehensive implementation for evaluating **State Space Models (SSMs)** and **Vision-Language Models (VLMs)** with token pruning and lossy-ness measurement. The project compares different architectures and analyzes the trade-offs between efficiency and information preservation.
+
+<div align="center">
+<img src="/images/quadratic.png" width="500" height="200" alt="Quadratic nature of attention">   
+<br>
+  
+<img src="/images/s4model.png" width="500" height="200" alt="S4 model of SSM">  
+</div>
+This repository contains a comprehensive implementation for evaluating **State Space Models (SSMs)** and **Vision-Language Models (VLMs)** with token pruning and lossy-ness measurement. The project compares different architectures and analyzes the trade-offs between efficiency and information preservation. For more information read the <a href="/Project A Report - Justin Zhang Zhong.pdf">report</a>    on this work.
 
 ## Features
+  
+### SSM Implementation
+<div align="center">
+<img src="/images/mamba.png" width="500" height="200" alt="Mamba's selection mechanism">   
+<br>
+<img src="/images/bimamba.png" width="300" height="500" alt="Bidirectional Mamba pipeline"> 
+</div>
 
-### 🔬 SSM Implementation
 - **Causal Mamba**: Sequential processing with causal attention
 - **Bidirectional Mamba**: Bidirectional context understanding
 - **Custom Text Dataset**: Synthetic dataset with complex patterns for evaluation
