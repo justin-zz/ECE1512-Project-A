@@ -9,7 +9,7 @@
   
 <img src="/images/s4model.png" width="500" height="200" alt="S4 model of SSM">  
 </div>
-This repository contains a comprehensive implementation for evaluating **State Space Models (SSMs)** and **Vision-Language Models (VLMs)** with token pruning and lossy-ness measurement. The project compares different architectures and analyzes the trade-offs between efficiency and information preservation. For more information read the <a href="/Project A Report - Justin Zhang Zhong.pdf">report</a>    on this work.
+This repository contains a comprehensive implementation for evaluating <b>State Space Models (SSMs)</b> and <b>Vision-Language Models (VLMs)</b> with token pruning and lossy-ness measurement. The project compares different architectures and analyzes the trade-offs between efficiency and information preservation. For more information read the <a href="/Project A Report - Justin Zhang Zhong.pdf">report</a>    on this work.
 
 ## Features
   
